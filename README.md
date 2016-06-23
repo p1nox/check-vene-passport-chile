@@ -7,8 +7,10 @@ You can check if the link to the PDF that holds the list of passports that can b
 Install node, then:
 
 ```
-npm install -g check-vene-passport-chile
-check-vene-passport-chile
+git clone git@github.com:p1nox/check-vene-passport-chile.git
+cd check-vene-passport-chile
+npm install
+node .
 ```
 
 # Why?
