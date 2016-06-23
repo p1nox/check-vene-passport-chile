@@ -1,0 +1,23 @@
+{
+  "name": "check-vene-passport-chile",
+  "version": "0.1.0",
+  "description": "Check if your Venezuelan passport might have arrived to Chile from your console.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "contributors": [
+    {
+      "name": "Raul Pino",
+      "email": "ipinoraul@gmail.com",
+      "url": "https://github.com/p1nox"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "beepbeep": "^1.2.0",
+    "bluebird": "^3.4.1",
+    "cheerio": "^0.20.0",
+    "request-promise": "^3.0.0"
+  }
+}
