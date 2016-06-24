@@ -1,10 +1,10 @@
 # check-vene-passport-chile
 
-You can check if the link to the PDF that holds the list of passports that can be retrieved was changed.
+Con este script puedes comprobar si el enlace al PDF que contiene la lista de los pasaportes que pueden ser retirados fue cambiada.
 
-# Usage
+# Uso
 
-Install node, then:
+Instala node, luego:
 
 ```
 git clone git@github.com:p1nox/check-vene-passport-chile.git
@@ -13,6 +13,6 @@ npm install
 node .
 ```
 
-# Why?
+# ¿Por qué?
 
-I was tired of checking a PDF to know if my passport is ready to be retrieved :P.
+Ya estaba cansado de revisar si un PDF cambio para ir a buscar el pasaporte en el consulado :/.
