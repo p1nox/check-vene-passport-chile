@@ -17,14 +17,17 @@ var checkVenePassport = function() {
 
       if ($img.attr('alt') === config.element_alt) {
 
-        if ($a.attr('href') === config.last_pdf_href) {
+        var linkHref = $a.attr('href');
+        if (linkHref === config.last_pdf_href) {
           console.log('\nNo passport for you yet :\'(');
         }
         else {
           beep(5, 1000);
           console.log('\nNew passports arrived! :D');
+          console.log(linkHref);
         }
         console.log(moment().format());
+
       }
     });
 

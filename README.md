@@ -1,6 +1,10 @@
 # check-vene-passport-chile
 
-Con este script puedes comprobar si el enlace al PDF que contiene la lista de los pasaportes que pueden ser retirados fue cambiada.
+Con este script puedes comprobar si el enlace al PDF que contiene la lista de los pasaportes que pueden ser retirados fue cambiada. Por defecto comprueba cada hora.
+
+![iterm popup](/assets/img/iterm.png)
+
+![console log](/assets/img/log.png)
 
 # Uso
 
