@@ -8,7 +8,7 @@ Con este script puedes comprobar si el enlace al PDF que contiene la lista de lo
 
 # Uso
 
-Instala node, luego:
+Instala [Node.js](https://nodejs.org), luego:
 
 ```
 git clone git@github.com:p1nox/check-vene-passport-chile.git
