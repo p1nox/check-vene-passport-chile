@@ -18,6 +18,7 @@
     "beepbeep": "^1.2.0",
     "bluebird": "^3.4.1",
     "cheerio": "^0.20.0",
+    "moment": "^2.13.0",
     "request-promise": "^3.0.0"
   }
 }

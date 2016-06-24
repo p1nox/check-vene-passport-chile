@@ -2,7 +2,8 @@
 var Promise = require('bluebird');
 var requestP = require('request-promise');
 var cheerio = require('cheerio');
-var beep = require('beepbeep')
+var beep = require('beepbeep');
+var moment = require('moment');
 var config = require('./config');
 
 var checkVenePassport = function() {
@@ -23,7 +24,7 @@ var checkVenePassport = function() {
           beep(5, 1000);
           console.log('\nNew passports arrived! :D');
         }
-
+        console.log(moment().format());
       }
     });
 
